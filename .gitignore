@@ -25,3 +25,9 @@ Thumbs.db
 *.log
 /debug.log
 /.cache/
+
+# 单元测试运行时产物（测试源码本身必须入库）
+/.phpunit.result.cache
+/phpunit.cache/
+/coverage/
+/build/
