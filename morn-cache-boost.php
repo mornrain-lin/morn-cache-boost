@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Morn Cache Boost
- * Plugin URI: https://github.com/mornrain/morn-cache-boost
+ * Plugin URI: https://github.com/mornrain-lin/morn-cache-boost
  * Description: 页面缓存加速插件。整页 HTML 输出缓存，支持 File / Transient / APCu 三种存储后端，移动端与桌面端分离缓存，智能排除规则，文章更新/主题切换自动失效，可选 GZIP 输出与关键 CSS 内联，后台一键清空缓存。零外部资源。
  * Version: 1.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Tested up to: 6.6
  * Author: MornRain
- * Author URI: https://github.com/mornrain
+ * Author URI: https://github.com/mornrain-lin
  * License: MIT
  * License URI: https://opensource.org/licenses/MIT
  * Text Domain: morn-cache-boost
