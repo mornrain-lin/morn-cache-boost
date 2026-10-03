@@ -1,0 +1,6 @@
+# 发布到 WordPress.org 时的瘦身规则
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/CHANGELOG.md export-ignore
+/README.md export-ignore
+/assets/css/admin.css export-ignore

@@ -1,0 +1,27 @@
+# 构建产物与依赖
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# WordPress 上传目录
+*.zip
+*.tar.gz
+
+# 环境与本地配置
+.env
+.env.local
+*.local.php
+
+# IDE
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# 日志与缓存
+*.log
+/debug.log
+/.cache/

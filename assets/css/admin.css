@@ -1,0 +1,66 @@
+/**
+ * Morn Cache Boost 后台样式。
+ */
+
+.morn-cb-panel {
+	margin: 16px 0 24px;
+	padding: 16px 20px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+}
+
+.morn-cb-panel h2 {
+	margin-top: 0;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.morn-cb-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin: 14px 0;
+}
+
+.morn-cb-card {
+	flex: 1 1 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 12px 14px;
+	background: #f6f7f7;
+	border-radius: 4px;
+}
+
+.morn-cb-card-label {
+	font-size: 12px;
+	color: #50575e;
+}
+
+.morn-cb-card-value {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1d2327;
+	font-variant-numeric: tabular-nums;
+}
+
+.morn-cb-actions {
+	margin: 8px 0 4px;
+}
+
+.morn-cb-actions .button {
+	margin-right: 6px;
+}
+
+.morn-cb-wrap textarea.code {
+	font-family: Consolas, Monaco, monospace;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+/* 顶栏统计节点。 */
+#wpadminbar .morn-cache-boost-stats .ab-item {
+	font-size: 11px;
+	opacity: 0.8;
+}
